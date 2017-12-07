@@ -1,0 +1,13 @@
+package com.cafeApp.service.user;
+
+import java.util.List;
+
+import com.cafeApp.model.user;
+
+public interface UserService {
+	public void add(User user);
+	public void edit(User user);
+	public void delete(int userId);
+	public User getUser(int userId);
+	public List getAllUser();
+}
