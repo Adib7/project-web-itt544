@@ -1,4 +1,4 @@
-package com.cafeApp.service.user;
+package com.cafeApp.service.UserService;
 
 import java.util.List;
 
